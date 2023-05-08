@@ -7,6 +7,7 @@ class mahasiswa {
  
 
 
+
 };
 
 int main()
