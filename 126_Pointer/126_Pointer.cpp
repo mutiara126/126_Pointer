@@ -9,11 +9,13 @@ public:
     }
 };
 
-int main (){
-    mahasiswa mhs(1);           //object mhs 
+int main() {
+    mahasiswa mhs{1};           //object mhs 
     mhs.showNim();             //Member Access Operator
 
     mahasiswa& refmhs = mhs;   //Pointer Reference refMhs
+    refmhs.nim = 2;            //Member Access Operator
+
 
 
 
