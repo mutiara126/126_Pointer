@@ -20,6 +20,7 @@ int main() {
     mahasiswa *pMhs = &mhs; //Pointer dereference refMHs
     pMhs->nim = 3;                //Arrow Operator
     mhs.showNim();
+    return 0;
 
 
 };
